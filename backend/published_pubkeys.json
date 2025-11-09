@@ -1,0 +1,32 @@
+[
+  {
+    "reviewer_id": 1,
+    "username": "user1",
+    "role": "reviewer",
+    "public_key_hex": "144561b3feffc20d28647fdbb554cf264ebf14ffd1c3d51c26936410887816f8"
+  },
+  {
+    "reviewer_id": 2,
+    "username": "user2",
+    "role": "reviewer",
+    "public_key_hex": "988422eb39b97de247146b17194490d96b32ec11c84b7fd7cf74300f17d838b3"
+  },
+  {
+    "reviewer_id": 3,
+    "username": "user3",
+    "role": "reviewer",
+    "public_key_hex": "3b9d6b2909883eb8c4a59a61d5c7c6ed80093e8582e389fff9694ad85eb024e2"
+  },
+  {
+    "reviewer_id": 4,
+    "username": "Sub1",
+    "role": "submitter",
+    "public_key_hex": "88f8f4eb7e86f67143b03e8670776244cf708dbde2d182b9e678b40b07e06469"
+  },
+  {
+    "reviewer_id": 5,
+    "username": "Yoman",
+    "role": "admin",
+    "public_key_hex": "2ba086f0844f2f867ecd038352e7d84914221317a70fbbe373e0621080dea555"
+  }
+]
