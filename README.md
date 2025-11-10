@@ -20,14 +20,12 @@ A secure, privacy-preserving platform for anonymous peer review of journalistic 
 
 ### 🎯 **User Roles**
 - **Submitters**: Upload content for review
-- **Vetters**: Initial content screening and validation
 - **Voters**: Anonymous community-based scoring
 - **Admins**: System oversight and escalation handling
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- **Docker & Docker Compose**
 - **Python 3.11+** (for local development)
 - **Node.js 18+** (for frontend development)
 - **PostgreSQL 15+** & **Redis 7+** (handled by Docker)
@@ -39,14 +37,6 @@ A secure, privacy-preserving platform for anonymous peer review of journalistic 
 git clone https://github.com/Dv-19/ProofPals.git
 cd ProofPals
 
-# Start all services
-docker-compose up -d
-
-# Check service status
-docker-compose ps
-
-# View logs
-docker-compose logs -f
 ```
 
 **Access Points:**
@@ -195,15 +185,6 @@ npm run test:coverage
 - **Escalation Tracking**: Content review pipeline monitoring
 - **User Activity**: Anonymous usage statistics
 
-## 🚀 Deployment
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed production deployment instructions including:
-- Cloud provider setup (AWS, GCP, Azure)
-- SSL/TLS configuration
-- Environment variables
-- Scaling considerations
-- Monitoring setup
-
 ## 🤝 Contributing
 
 1. **Fork the repository**
@@ -217,24 +198,13 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed production deployment instructio
 - Follow existing code style and conventions
 - Add tests for new features
 - Update documentation as needed
-- Ensure Docker builds succeed
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🏆 Acknowledgments
 
-- **MLH Midnight Hack**: Original hackathon project
 - **Ring Signature Research**: Academic cryptography community
 - **Open Source Libraries**: All the amazing tools that made this possible
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/Dv-19/ProofPals/issues)
-- **Documentation**: Check `/backend/README.md` for detailed backend docs
-- **API Reference**: Visit `/docs` endpoint when running locally
 
 ---
 
-**Built with ❤️ for anonymous, secure journalism review**
